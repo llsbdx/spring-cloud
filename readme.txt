@@ -9,3 +9,6 @@ http://code1.mysteeltech.com/svn/banksteel-erp/banksteel-erp-fpurchase-assember/
 http://code1.mysteeltech.com/svn/banksteel-erp/banksteel-erp-fpurchase-rest/branches/v2sp4/banksteel-erp-fpurchase-webapp
 
 ddd
+
+Git tracks changs.
+Git tracks changes of files.
