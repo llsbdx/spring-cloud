@@ -1,0 +1,35 @@
+#Tomcat 配置
+server:
+  port: 8088
+
+#Eureka 服务注册与发现
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8083/eureka/
+#Spring Boot Admin 监控配置
+spring:
+  boot:
+    admin:
+      url: http://localhost:8082
+      client:
+        prefer-ip: true
+  mvc:
+    async:
+      request-timeout: -1
+
+#为监控提供URI访问的上下文设置
+management:
+  address: localhost
+  context-path: /admin
+info:
+  application:
+    name: application
+    version: 1.0-SNAPSHOT
+    owner: fh.org
+    author: lilong
+foo: fetch

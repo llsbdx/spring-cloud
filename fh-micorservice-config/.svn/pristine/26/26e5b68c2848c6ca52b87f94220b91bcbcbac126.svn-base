@@ -1,0 +1,32 @@
+#Tomcat 配置
+server:
+  port: 8088
+
+foo: bar
+#Spring Boot Admin 监控集成
+spring:
+  boot:
+    admin:
+      url: http://localhost:8082
+      client:
+        prefer-ip: true
+  mvc:
+    async:
+      request-timeout: -1
+
+#用于提供给监控的上下文URI设置
+management:
+  address: localhost
+  context-path: /admin
+
+#Eureka 服务注册与发现
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8083/eureka/
+  instance:
+    prefer-ip-address: true
+    metadata-map:
+      cluster: MY_CLUSTER
+    health-check-url-path: ${management.contextPath}/health
+    status-page-url-path: ${management.contextPath}/info
