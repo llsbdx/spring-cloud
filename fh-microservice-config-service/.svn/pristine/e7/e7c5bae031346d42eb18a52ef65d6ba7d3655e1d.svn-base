@@ -1,0 +1,12 @@
+server:
+  port:8088
+spring:
+  cloud:
+    config:
+      server:
+        svn:
+          uri:svn://192.168.201.111/code/fh-microservice-config-service
+          username:lilong
+          password:ll2431
+profiles:
+  active:subversion
