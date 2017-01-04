@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: com-fh-cloud-app
+  cloud:
+    config:
+      uri: http://localhost:8080
+      discovery:
+              enabled: true

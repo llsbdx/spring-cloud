@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="false">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="com-fh-cloud-admin" />
+        <module name="com-fh-cloud-config" />
+        <module name="com-fh-cloud-eureka" />
+        <module name="com-fh-cloud-trubine" />
+      </profile>
+      <profile default="false" name="Annotation profile for com-fh-cloud-app" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="com-fh-cloud-app" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com-fh-cloud" target="1.7" />
+      <module name="com-fh-cloud-admin" target="1.7" />
+      <module name="com-fh-cloud-app" target="1.7" />
+      <module name="com-fh-cloud-config" target="1.7" />
+      <module name="com-fh-cloud-eureka" target="1.7" />
+      <module name="com-fh-cloud-trubine" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

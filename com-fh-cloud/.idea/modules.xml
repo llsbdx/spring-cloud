@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com-fh-cloud.iml" filepath="$PROJECT_DIR$/com-fh-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fh-cloud-admin/com-fh-cloud-admin.iml" filepath="$PROJECT_DIR$/com-fh-cloud-admin/com-fh-cloud-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fh-cloud-app/com-fh-cloud-app.iml" filepath="$PROJECT_DIR$/com-fh-cloud-app/com-fh-cloud-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fh-cloud-config/com-fh-cloud-config.iml" filepath="$PROJECT_DIR$/com-fh-cloud-config/com-fh-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fh-cloud-eureka/com-fh-cloud-eureka.iml" filepath="$PROJECT_DIR$/com-fh-cloud-eureka/com-fh-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fh-cloud-trubine/com-fh-cloud-trubine.iml" filepath="$PROJECT_DIR$/com-fh-cloud-trubine/com-fh-cloud-trubine.iml" />
+    </modules>
+  </component>
+</project>

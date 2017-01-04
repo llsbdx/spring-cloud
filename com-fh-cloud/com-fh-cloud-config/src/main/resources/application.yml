@@ -1,0 +1,29 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    config:
+      server:
+        svn:
+          uri: http://192.168.201.111:90/code/svnrepos/fh/fh-micorservice-config
+          username: lilong
+          password: ll2431
+  profiles:
+    active: subversion
+  boot:
+    admin:
+      url: http://localhost:8082
+      client:
+        prefer-ip: true
+  mvc:
+    async:
+      request-timeout: -1
+management:
+  address: localhost
+  context-path: /admin
+info:
+  application:
+    name: 配置中心
+    version: 1.0-SNAPSHOT
+    owner: fh.org
+    author: lilong
