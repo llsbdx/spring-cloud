@@ -1,0 +1,12 @@
+server:
+  port: 8088
+spring:
+  cloud:
+    config:
+      server:
+        svn:
+          uri: http://192.168.201.111:90/code/svnrepos/fh/fh-micorservice-config
+          username: lilong
+          password: ll2431
+  profiles:
+    active: subversion
