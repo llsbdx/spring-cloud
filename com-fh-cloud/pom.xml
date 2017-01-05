@@ -19,6 +19,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
     <modules>
         <module>com-fh-cloud-app</module>
         <module>com-fh-cloud-config</module>
